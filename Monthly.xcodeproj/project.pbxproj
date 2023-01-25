@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A87EACB52981021B0028613F /* MonthlyWidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A87EACB42981021B0028613F /* MonthlyWidgetIntents.intentdefinition */; };
+		A87EACB62981021B0028613F /* MonthlyWidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A87EACB42981021B0028613F /* MonthlyWidgetIntents.intentdefinition */; };
 		A8F0BDB02971483600750619 /* MonthlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0BDAF2971483600750619 /* MonthlyApp.swift */; };
 		A8F0BDB22971483600750619 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0BDB12971483600750619 /* ContentView.swift */; };
 		A8F0BDB42971483F00750619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F0BDB32971483F00750619 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A87EACB42981021B0028613F /* MonthlyWidgetIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MonthlyWidgetIntents.intentdefinition; sourceTree = "<group>"; };
+		A87EACB72981023A0028613F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A8F0BDAC2971483600750619 /* Monthly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monthly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F0BDAF2971483600750619 /* MonthlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyApp.swift; sourceTree = "<group>"; };
 		A8F0BDB12971483600750619 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 		A8F0BDAE2971483600750619 /* Monthly */ = {
 			isa = PBXGroup;
 			children = (
+				A87EACB72981023A0028613F /* Info.plist */,
 				A8F0BDAF2971483600750619 /* MonthlyApp.swift */,
 				A8F0BDB12971483600750619 /* ContentView.swift */,
 				A8F0BDB32971483F00750619 /* Assets.xcassets */,
@@ -135,6 +140,7 @@
 				A8F0BDD62971542B00750619 /* MonthConfig.swift */,
 				A8F0BDCC2971497F00750619 /* Assets.xcassets */,
 				A8F0BDCE2971497F00750619 /* Info.plist */,
+				A87EACB42981021B0028613F /* MonthlyWidgetIntents.intentdefinition */,
 			);
 			path = MonthlyWidgets;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F0BDB22971483600750619 /* ContentView.swift in Sources */,
+				A87EACB52981021B0028613F /* MonthlyWidgetIntents.intentdefinition in Sources */,
 				A8F0BDB02971483600750619 /* MonthlyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +258,7 @@
 			files = (
 				A8F0BDC92971497700750619 /* MonthlyWidgetsBundle.swift in Sources */,
 				A8F0BDD72971542B00750619 /* MonthConfig.swift in Sources */,
+				A87EACB62981021B0028613F /* MonthlyWidgetIntents.intentdefinition in Sources */,
 				A8F0BDCB2971497700750619 /* MonthlyWidgets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +400,7 @@
 				DEVELOPMENT_TEAM = WV8G99LA38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,6 +431,7 @@
 				DEVELOPMENT_TEAM = WV8G99LA38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
